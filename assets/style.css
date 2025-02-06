@@ -19,9 +19,30 @@ header{ box-shadow: 0px 1px 2px #e4e7f3;}
 header .border-bottom{border-color: #ecf4fb !important; }
 
 /* SUBMENU */
+ 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.dropdown:hover .dropdown-menu.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .dropdown-submenu {
     position: relative;
 }
+
+ 
+.dropdown-item {
+    padding: .76rem 1.76rem;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+.dropdown-item:focus, .dropdown-item:hover{ background: #c5edff; color: #1497cf; font-weight: 500;}
 
 .dropdown-submenu>.dropdown-menu {
     top: 0;
@@ -31,6 +52,7 @@ header .border-bottom{border-color: #ecf4fb !important; }
     -webkit-border-radius: 0 6px 6px 6px;
     -moz-border-radius: 0 6px 6px;
     border-radius: 0 6px 6px 6px;
+    transition: all 0.4s;
 }
 
 .dropdown-submenu:hover>.dropdown-menu {
@@ -1369,9 +1391,43 @@ header .border-bottom{border-color: #ecf4fb !important; }
     background: #f8f9ff;
     padding: 25px 0px;
 }
+.footer{background: #f5faff;
+    background: #f5faff url('../assets/images/aibg1.png') no-repeat center/cover;
+    padding: 60px 0px 30px;}
+.footer h3 {
+    padding-bottom: 16px;
+    font-size: 1.26rem;
+    color: #fff;
+    letter-spacing: 0.04rem;
+}
+.footer p{font-size: .98rem;color: #e7f4ff;} 
+.ftr-links ul li {padding: 0.64rem 0;}
+.ftr-links ul li a {
+    color: #e7f4ff;
+    font-size: 0.96rem;
+    text-decoration: none;
+    transition: all 0.3s ease-out 0s;letter-spacing: 0.04rem;
+    
+}
+
+.info-quad ul li a{ color: #e7f4ff; padding: 6px 12px;     font-size: 1.18rem;
+}
+
+.ftr-links ul li a:hover{color: #e3f7ff; font-weight: 500; padding-left: 12px;  }
+
+.touch-widget p a{color: #e7f4ff;
+    font-size: 1.16rem; text-decoration: none; letter-spacing: 0.04rem;}
+
+.cpy-ftr{border-top: 1px solid #77c1f7;
+    padding-top: 36px;
+    text-align: center;}
+.cpy-ftr p{color: #000000; margin-bottom: 0px;}
 
 
 
+
+
+    
 
 @media (min-width: 320px) and (max-width: 767.98px) {
     
