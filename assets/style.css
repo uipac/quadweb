@@ -1422,7 +1422,7 @@ header .border-bottom{border-color: #ecf4fb !important; }
     padding-top: 36px;
     text-align: center;}
 .cpy-ftr p{color: #000000; margin-bottom: 0px;}
-
+.pt-width{width: 390px;}
 
 
 
@@ -1430,7 +1430,7 @@ header .border-bottom{border-color: #ecf4fb !important; }
     
 
 @media (min-width: 320px) and (max-width: 767.98px) {
-    
+    .pt-width{width: 260px;}
     .navbar{--bs-navbar-padding-y:0px;}
     
     .container{ padding: 0 1.1rem;}
