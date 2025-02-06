@@ -21,7 +21,7 @@ header .border-bottom{border-color: #ecf4fb !important; }
 /* SUBMENU */
  
 .dropdown:hover .dropdown-menu {
-    display: block;
+     
     opacity: 0;
     transform: translateY(10px);
     transition: opacity 0.3s ease, transform 0.3s ease;
