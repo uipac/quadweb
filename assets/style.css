@@ -1291,6 +1291,25 @@ header .border-bottom{border-color: #ecf4fb !important; }
     padding: 36px;
     border-radius: 12px;
 }
+.exp-points {
+    /* background: #F6F8FF; */
+    /* background: #f3fbff; */
+    padding: 26px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px 0px #d0e3ff;
+}
+
+.exp-points h2 {
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+
+.expleading-sec .exp-card{text-align: center;}
+
+.expleading-sec .exp-card h2{padding:12px 0px 6px; font-size: 22px; font-weight: 600;}
+.expleading-sec .exp-card p{margin-bottom: 0px;}
 
 .weserve-sec{padding-bottom: 60px;}
 .weserve-sec .goal-card{ padding: 26px; text-align: left; height: 216px;}
@@ -1449,9 +1468,53 @@ header .border-bottom{border-color: #ecf4fb !important; }
 .cpy-ftr p{color: #000000; margin-bottom: 0px;}
 .pt-width{width: 390px;}
 
+.video-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+.cta-button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #004466;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+.cta-button:hover {
+    background-color: #e6b800;
+    transform: scale(1.05);
+}
 
 
 
+.comparison-table {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px #B5D9E8;
+    overflow: hidden; margin-bottom: 0px;
+}
+.table{margin-bottom: 0px;}
+.table th {
+    background-color: #29ABE2;
+    color: white;
+    text-transform: uppercase;
+}
+.table td {
+    vertical-align: middle;
+}
+ 
+.bdr-btm{    border-bottom: 1px solid #e1e8fc;}
     
 
 @media (min-width: 320px) and (max-width: 767.98px) {
