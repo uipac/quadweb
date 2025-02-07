@@ -1306,7 +1306,7 @@ header .border-bottom{border-color: #ecf4fb !important; }
     margin-bottom: 16px;
 }
 
-.expleading-sec .exp-card{text-align: center;}
+.expleading-sec .exp-card{text-align: center; padding: 0px 30px;}
 
 .expleading-sec .exp-card h2{padding:12px 0px 6px; font-size: 22px; font-weight: 600;}
 .expleading-sec .exp-card p{margin-bottom: 0px;}
