@@ -1553,6 +1553,26 @@ section.types-medical-sect-bottom {margin-bottom: 50px;}
 span.protxt { color: #29ABE2;}
  /* Hospital Machine Intergration end */
 
+ .seem-benifits-sect .crm-step {text-align: center;}
+ .seem-benifits-sect h2{margin-bottom: 30px;}
+
+
+/* Who is eligible  */
+.who_eligible { padding: 60px 0; overflow: hidden;}
+ .who_eligible .choose-feature-wrap {position: relative; z-index: 2;  padding: 20px; margin-bottom: 15px; margin-top: 30px;}
+ .who_eligible .choose-feature-wrap:before { content: ""; height: 60%; width: 1px;  background-color: #3D97DA;  position: absolute;   top: 49px;  left: 40px; z-index: -1;}
+.who_eligible .choose-feature {display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; gap: 15px; margin-bottom: 23px; text-align: left;}
+.who_eligible .choose-feature .box-number {width: 40px; height: 40px; line-height: 40px; border: 1px solid #3D97DA; color: #3D97DA; text-align: center;  border-radius: 999px;
+    font-size: 18px; font-weight: 600;  background-color:#fff;}
+    .who_eligible .choose-feature .ac-numner { background-color:#3D97DA; color: #fff;}
+.who_eligible .media-body {-webkit-box-flex: 1; -ms-flex: 1;  flex: 1;}
+.who_eligible h3.box-title { font-size: 20px;}
+/* Who is eligible end */
+
+.scalable-sec-new{background: url('../assets/images/doc-bg.svg') no-repeat center/cover; padding: 0px 0;  }
+.prioritizes { margin-top: -55px;}
+.scalable-sec-new h3{color: #132255;}
+
 
 
 @media (min-width: 320px) and (max-width: 767.98px) {
@@ -1610,23 +1630,24 @@ span.protxt { color: #29ABE2;}
     .crmcta-sec h4 {
         font-size: 18px;}
 
-
+        .core-points-medical-coding {padding: 0;}
+        section.types-medical-sect-bottom {margin: 10px;margin-bottom: 50px;}
+        .solution-bg{background: #79c9ec; padding: 20px;}
+        .solution-bg p{padding: 0;}
+         /* Medical Coding Application end */   
         
-/* Medical Coding Application start */
-.core-points-medical-coding {padding: 0;}
-section.types-medical-sect-bottom {margin: 10px;margin-bottom: 50px;}
-.solution-bg{background: #79c9ec; padding: 20px;}
-.solution-bg p{padding: 0;}
- /* Medical Coding Application end */   
-
- /* Hospital Machine Intergration start */
- .key-ben-sect { padding: 30px 0;}
- .scalable-sec h3{padding-top: 30px;}
- .whytech1-bg{text-align: center;}
- .whytech1-bg h2 { font-size: 28px; padding-bottom: 6px;}
- .testimonials-sec h2 { font-size: 26px;}
-  /* Hospital Machine Intergration end */
-
+         /* Hospital Machine Intergration start */
+         .key-ben-sect { padding: 30px 0;}
+         .scalable-sec h3{padding-top: 30px;}
+         .whytech1-bg{text-align: center;}
+         .whytech1-bg h2 { font-size: 28px; padding-bottom: 6px;}
+         .testimonials-sec h2 { font-size: 26px;}
+          /* Hospital Machine Intergration end */
+          .who_eligible h2 { padding-top: 40px;}
+          .who_eligible{padding-bottom: 0;}
+          .prioritizes {margin-top: 0;}
+          .scalable-sec-new{padding-bottom: 0;}
+        
 
   
   }
