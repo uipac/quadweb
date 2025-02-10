@@ -1525,7 +1525,7 @@ iframe {
 .types-medical-sect-bottom .container {margin-top: -170px;}
 .types-medical-sect-bottom .goal-card { min-height: 305px;}
 .types-medical-sect-bottom .goal-card h2::after{height: auto;}
-.goal-card h2{margin-top: 20px;font-size: 23px;}
+.types-medical-sect-bottom .goal-card h2{margin-top: 20px;font-size: 23px;}
 .types-medical-sect-bottom h3 {font-size: 16px; margin-bottom: 20px;}
 .types-medical-sect-bottom p{margin: 0;}
 .types-medical-sect-bottom .container{ border-radius: 9px; box-shadow: 0px 0px 4px #B5D9E8; background: #fff; padding: 30px 0;}
