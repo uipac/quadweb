@@ -208,6 +208,54 @@ header .border-bottom{border-color: #ecf4fb !important; }
     text-decoration: none; 
     /* display: flex; */
     /* align-items: center; */
+    text-decoration: none;
+    /* display: flex
+; */
+    /* align-items: center; */
+    white-space: nowrap;
+    padding: .76rem 1.76rem !important;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+
+}
+
+.navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0rem !important;
+}
+.menu-item .nav-link {
+    text-decoration: none; 
+    /* display: flex; */
+    /* align-items: center; */
+    text-decoration: none;
+    /* display: flex
+; */
+    /* align-items: center; */
+    white-space: nowrap;
+    padding: .76rem 1.76rem !important;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+
+}
+
+.menu-item .nav-link:hover {
+    color: #132255;
+    background: #c5edff;
+    color: #1497cf;
+    font-weight: 500;
+}
+.menu-item:hover {
+    background: #c5edff;
+    color: #1497cf;
+    font-weight: 500;
+}
+.navbar .btn-primary{    margin: 3px 0px;}
+
+
+.nav-active{
+    background: #c5edff;
+    color: #1497cf;
+    font-weight: 500;
 }
 
 .nav-link:hover {
